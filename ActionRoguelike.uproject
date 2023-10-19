@@ -5,11 +5,15 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "ActionRougelike",
+			"Name": "ActionRoguelike",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"AIModule",
+				"UMG",
+				"CoreUObject",
+				"GameplayTags"
 			]
 		}
 	],
